@@ -64,7 +64,6 @@ validators
 pyrogram==1.4.0
 asyncio
 nltk
-aiohttp>=3.7.4
 pykeyboard==0.1.2
 Pillow>=4.2.0
 CurrencyConverter
