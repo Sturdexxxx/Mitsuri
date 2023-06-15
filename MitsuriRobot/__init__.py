@@ -2,7 +2,6 @@ import logging
 import os
 import sys
 import time
-import spamwatch
 import aiohttp
 from MitsuriRobot.services.quoteapi import Quotly
 import telegram.ext as tg
