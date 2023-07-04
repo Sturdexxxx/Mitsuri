@@ -26,7 +26,7 @@ class Config:
     CERT_PATH = getenv("CERT_PATH")
     API_ID = getenv('API_ID', "4665778")
     API_HASH = getenv('API_HASH', "10e3ed833b0d09699973420d45359409")
-    DB_URI = getenv('DATABASE_URL', "postgres://fqiiaofs:v-Fbgtr09XIsiwR6D5q3qz4mcwxy9Img@silly.db.elephantsql.com/fqiiaofs")
+    DATABASE_URL = getenv('DATABASE_URL', "postgres://fqiiaofs:v-Fbgtr09XIsiwR6D5q3qz4mcwxy9Img@silly.db.elephantsql.com/fqiiaofs")
     SQLALCHEMY_DATABASE_URI = DB_URI = getenv('SQLALCHEMY_DATABASE_URI', "postgres://oypdrwxq:gZHTqsJSmlyQ0rp_DWSnGDrOsTcYM-Pl@suleiman.db.elephantsql.com/oypdrwxq")
     DONATION_LINK = getenv('DONATION_LINK', "https://t.me/xelcius")
     LOAD = getenv("LOAD", "").split()
