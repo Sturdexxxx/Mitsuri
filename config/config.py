@@ -68,5 +68,6 @@ class Config:
     DEV_USERS = getenv('DEV_USERS', '')
     WOLVES = getenv('WOLVES', '')
     TIGERS = getenv('TIGERS', '')
+    DEMONS = getenv('DEMONS', '')
 
 
