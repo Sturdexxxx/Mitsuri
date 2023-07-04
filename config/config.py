@@ -58,7 +58,7 @@ class Config:
     BOT_ID = getenv("BOT_ID", "6251112181")
     ERROR_LOGS = getenv("ERROR_LOGS", "-1001800732275")  # Error Logs (Channel Ya Group Choice Is Yours) (-100)
     STRICT_GMUTE = getenv('STRICT_GMUTE', "True").lower() == "true"
-    MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ok:lol@cluster1.udhzs7r.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rishu:rishu@cluster0.gzidqw6.mongodb.net/?retryWrites=true&w=majority")
     DEBUG = getenv('IS_DEBUG', "False").lower() == "true"
     REDIS_URL = getenv("REDIS_URL", "")  # REDIS URL (From:- Heraku & Redis)
     OWNER_NAME = getenv("OWNER_NAME", "U N K N O W N")
