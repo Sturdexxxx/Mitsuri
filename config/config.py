@@ -29,7 +29,7 @@ DB_URI = getenv('DATABASE_URL', "postgres://fqiiaofs:v-Fbgtr09XIsiwR6D5q3qz4mcwx
 DONATION_LINK = getenv('DONATION_LINK', "https://t.me/xelcius")
 LOAD = getenv("LOAD", "").split()
 NO_LOAD = getenv("NO_LOAD", "rss").split()
-DEL_CMDS = int(getenv('DEL_CMDS', "true")).lower() == "true"
+DEL_CMDS = getenv('DEL_CMDS', "true").lower() == "true"
 STRICT_GBAN = int(getenv('STRICT_GBAN', "true"))
 WORKERS = int(getenv('WORKERS', "8"))
 BAN_STICKER = getenv('BAN_STICKER', 'CAADAgADOwADPPEcAXkko5EB3YGYAg')
@@ -54,8 +54,8 @@ OPENWEATHERMAP_ID = getenv("OPENWEATHERMAP_ID", "") # From:- https://openweather
 LOG_GROUP_ID = getenv('LOG_GROUP_ID', "-1001800732275")
 BOT_ID = getenv("BOT_ID", "6251112181")
 ERROR_LOGS = getenv("ERROR_LOGS", "-1001800732275") # Error Logs (Channel Ya Group Choice Is Yours) (-100)
-STRICT_GMUTE = int(getenv('STRICT_GMUTE', "True"))
+STRICT_GMUTE = getenv('STRICT_GMUTE', "True").lower() == "true"
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ok:lol@cluster1.udhzs7r.mongodb.net/?retryWrites=true&w=majority")
-DEBUG = int(getenv('IS_DEBUG', "False")).lower() == "true"
+DEBUG = getenv('IS_DEBUG', "False").lower() == "true"
 REDIS_URL = getenv("REDIS_URL", "") # REDIS URL (From:- Heraku & Redis)
 OWNER_NAME = getenv("OWNER_NAME", "U N K N O W N")
