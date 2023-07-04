@@ -9,6 +9,7 @@ import telegram.ext as tg
 from redis import StrictRedis
 from Python_ARQ import ARQ
 from pyrogram import Client, errors
+from queue import Queue
 from telethon.sessions import StringSession
 from telethon import TelegramClient
 from aiohttp import ClientSession
