@@ -224,6 +224,8 @@ pgram = Client(session_name, api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 print("Scanning AIO http session")
 aiohttpsession = ClientSession() 
 
+update_queue = Queue()
+
 #install arq
 print("Connecting ARQ Client")
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
