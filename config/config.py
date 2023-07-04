@@ -63,5 +63,6 @@ class Config:
     TOKEN = getenv('TOKEN', '6251112181:AAH8XwNf4ffv_KpcjGnbMc45lryd_EreKGg')
     OWNER_ID = getenv('OWNER_ID', '5500572462')
     JOIN_LOGGER = getenv('OWNER_ID', '-1001800732275')
+    OWNER_USERNAM = getenv('OWNER_USERNAM', 'CrimsonDrops')
 
 
