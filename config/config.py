@@ -61,4 +61,5 @@ class Config:
     REDIS_URL = getenv("REDIS_URL", "")  # REDIS URL (From:- Heraku & Redis)
     OWNER_NAME = getenv("OWNER_NAME", "U N K N O W N")
     TOKEN = getenv('TOKEN', '6251112181:AAH8XwNf4ffv_KpcjGnbMc45lryd_EreKGg')
+    OWNER_ID = getenv('OWNER_ID', '5500572462') 
 
