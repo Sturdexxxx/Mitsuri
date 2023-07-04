@@ -30,7 +30,7 @@ DONATION_LINK = getenv('DONATION_LINK', "https://t.me/xelcius")
 LOAD = getenv("LOAD", "").split()
 NO_LOAD = getenv("NO_LOAD", "rss").split()
 DEL_CMDS = getenv('DEL_CMDS', "true").lower() == "true"
-STRICT_GBAN = int(getenv('STRICT_GBAN', "true"))
+STRICT_GBAN = getenv('STRICT_GBAN', "true").lower() == "true"
 WORKERS = int(getenv('WORKERS', "8"))
 BAN_STICKER = getenv('BAN_STICKER', 'CAADAgADOwADPPEcAXkko5EB3YGYAg')
 ALLOW_EXCL = getenv('ALLOW_EXCL', "true").lower() == "true"
