@@ -43,7 +43,7 @@ class Config:
     WALL_API = getenv('WALL_API', "")
     SUPPORT_CHAT = getenv('SUPPORT_CHAT', "https://t.me/Mitsuri_BotSupport")
     SPAMWATCH_SUPPORT_CHAT = getenv('SPAMWATCH_SUPPORT_CHAT', "")
-    SPAMWATCH_API = getenv('SPAMWATCH_API', "")
+    SPAMWATCH_API = getenv('SPAMWATCH_API', "69xE1D_pP5UgX4XQlkiwKIATl104oaTC9FUDKbmoWq~W8m2cERCrQFY1K3U~hwTM")
     REPOSITORY = getenv("REPOSITORY", "https://github.com")
     IBM_WATSON_CRED_URL = getenv("IBM_WATSON_CRED_URL", "")
     IBM_WATSON_CRED_PASSWORD = getenv("IBM_WATSON_CRED_PASSWORD", "")
