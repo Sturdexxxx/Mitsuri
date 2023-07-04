@@ -64,5 +64,6 @@ class Config:
     OWNER_ID = getenv('OWNER_ID', '5500572462')
     JOIN_LOGGER = getenv('OWNER_ID', '-1001800732275')
     OWNER_USERNAME = getenv('OWNER_USERNAME', 'CrimsonDrops')
+    DRAGONS = getenv('DRAGONS', '')
 
 
