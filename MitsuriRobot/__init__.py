@@ -128,7 +128,7 @@ if ENV:
             "Your blacklisted chats list does not contain valid integers.")
     
 else:
-    from MitsuriRobot.config import Development as Config
+    from MitsuriRobot.config import Config
     TOKEN = Config.TOKEN
 
     try:
