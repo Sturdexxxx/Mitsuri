@@ -15,7 +15,7 @@ from telethon import TelegramClient
 from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 
-INFOPIC = int(getenv('INFOPIC', "true"))
+INFOPIC = getenv('INFOPIC', "true").lower() == "true"
 EVENT_LOGS = getenv('EVENT_LOGS', "-1001800732275")
 WEBHOOK = int(getenv('WEBHOOK', "False"))
 ARQ_API_URL = getenv("ARQ_API_URL", "https://thearq.tech/")
