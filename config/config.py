@@ -60,4 +60,5 @@ class Config:
     DEBUG = getenv('IS_DEBUG', "False").lower() == "true"
     REDIS_URL = getenv("REDIS_URL", "")  # REDIS URL (From:- Heraku & Redis)
     OWNER_NAME = getenv("OWNER_NAME", "U N K N O W N")
+    TOKEN = getenv('TOKEN', '6251112181:AAH8XwNf4ffv_KpcjGnbMc45lryd_EreKGg')
 
