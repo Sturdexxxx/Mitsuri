@@ -201,6 +201,7 @@ else:
     TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
     ERROR_LOGS = Config.ERROR_LOGS
     STRICT_GMUTE = Config.STRICT_GMUTE
+    MONGO_DB_URI = Config.MONGO_DB_URI
 
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
