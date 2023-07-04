@@ -1,6 +1,7 @@
 import logging
 import os
 import sys
+import spamwatch
 import time
 import aiohttp
 from MitsuriRobot.services.quoteapi import Quotly
