@@ -43,7 +43,6 @@ class Chats(BASE):
 class ChatMembers(BASE):
     __tablename__ = "chat_members"
     priv_chat_id = Column(BigInteger, primary_key=True)
-    # NOTE: Use dual primary key instead of private primary key?
     chat = Column(
         String(14),
         ForeignKey("chats.chat_id", onupdate="CASCADE", ondelete="CASCADE"),
@@ -69,9 +68,9 @@ class ChatMembers(BASE):
         )
 
 
-Users.__table__.create(checkfirst=True)
-Chats.__table__.create(checkfirst=True)
-ChatMembers.__table__.create(checkfirst=True)
+# Create the tables if they don't exist
+BASE.metadata.create_all(SESSION.bind)
+
 
 INSERTION_LOCK = threading.RLock()
 
